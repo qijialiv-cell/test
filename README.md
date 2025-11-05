@@ -17,3 +17,13 @@ This project analyzes income inequality trends across countries using data from 
 Rscript code/01_clean_data.R
 python code/02_analysis.py
 stata -b do code/03_regression.do
+
+
+```mermaid
+flowchart TD
+    A[Raw Data] --> B[Clean Data (R)]
+    B --> C[Analysis & Visualization (Python)]
+    C --> D[Regression & Tables (Stata)]
+    D --> E[Figures & Tables for Paper]
+    E --> F[GitHub Repository for Reproducibility]
+
