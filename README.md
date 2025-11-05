@@ -26,4 +26,4 @@ flowchart TD
     C --> D[Regression & Tables (Stata)]
     D --> E[Figures & Tables for Paper]
     E --> F[GitHub Repository for Reproducibility]
-
+```
